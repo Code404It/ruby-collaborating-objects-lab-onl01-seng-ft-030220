@@ -12,7 +12,7 @@ def self.all
 end 
 
 def songs 
-  song.all.select { |song| song.artist =self} 
+  song.all.select { |song| song.artist = self} 
 end 
 
 def add_song(song)
